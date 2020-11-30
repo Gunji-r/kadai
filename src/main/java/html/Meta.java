@@ -1,10 +1,12 @@
 package html;
 
+import lombok.Builder;
 import lombok.Getter;
 import lombok.Setter;
+import lombok.Value;
 
-@Getter
-@Setter
+@Value
+@Builder
 
 /**
  * HTMLの{@code meta}タグを管理するクラス
